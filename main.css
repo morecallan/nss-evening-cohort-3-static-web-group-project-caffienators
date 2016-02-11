@@ -9,7 +9,17 @@
  yellow: #FED02F
 
 */
+.nav{
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  background-color: #D62F61;
+}
 
+.nav li {
+  padding:10px;
+  color: #139275;
+}
 
 body {
   background-color: black;
