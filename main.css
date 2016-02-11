@@ -1,5 +1,4 @@
 /*  COLORS
-
  hot pink: #EA3E94,
  red (dark pink): #D62F61,
  purple: #782464,
@@ -7,8 +6,38 @@
  turquoise: #39BFBD,
  green: #139275,
  yellow: #FED02F
-
 */
+
+
+
+/******************SETS MAIN LAYOUT STYLE *******************/
+
+
+body {
+  background: url("img/background.jpg") center no-repeat;
+  background-size:cover;
+}
+
+
+h1, h2, h3 {
+  font-family: 'Monoton', cursive;
+}
+
+
+p {
+  font-family: 'Poiret One', cursive;
+}
+
+
+.content {
+  background-color: black;
+  width: 60%;
+  margin: 0 20%;
+}
+
+
+
+/******************SETS NAV STYLE *******************/
 .nav{
   display: flex;
   justify-content: flex-end;
@@ -21,17 +50,16 @@
   color: #139275;
 }
 
-body {
-  background-color: black;
-  color: white;
-}
-
-h1, h2, h3 {
-  font-family: 'Monoton', cursive;
-}
+/******************SETS INDEX PAGE STYLE *******************/
 
 
+/******************SETS CULTURE PAGE STYLE *******************/
 
-p {
-  font-family: 'Poiret One', cursive;
-}
+
+/******************SETS EXPERIENCE PAGE STYLE *******************/
+
+
+/******************SETS PRODUCTS PAGE STYLE *******************/
+
+
+
