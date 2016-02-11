@@ -14,8 +14,8 @@
 
 
 body {
-  background-color: black;
-  color: white;
+  background: url("img/background.jpg") center no-repeat;
+  background-size:cover;
 }
 
 
@@ -28,6 +28,12 @@ p {
   font-family: 'Poiret One', cursive;
 }
 
+
+.content {
+  background-color: black;
+  width: 60%;
+  margin: 0 20%;
+}
 
 
 
