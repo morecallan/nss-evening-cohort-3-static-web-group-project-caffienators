@@ -1,4 +1,27 @@
+/*  COLORS
+
+ hot pink: #EA3E94,
+ red (dark pink): #D62F61,
+ purple: #782464,
+ blue: #1E53A2,
+ turquoise: #39BFBD,
+ green: #139275,
+ yellow: #FED02F
+
+*/
+
+
 body {
   background-color: black;
   color: white;
+}
+
+h1, h2, h3 {
+  font-family: 'Monoton', cursive;
+}
+
+
+
+p {
+  font-family: 'Poiret One', cursive;
 }
