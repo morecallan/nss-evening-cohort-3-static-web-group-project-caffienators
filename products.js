@@ -1,15 +1,15 @@
-var products = [
+var toys = [
 product1 = {
   name: "Sea Monkeys",
   description: "description goes here",
   url: "img/product1.jpg",
-  price: "price goes here"
+  price: "$44.57"
 },
 product2 = {
   name: "Lunch Boxes",
   description: "description goes here",
   url: "img/product2.jpg",
-  price: "price goes here"
+  price: "$78.99"
 },
 product3 = {
   name: "Board Games",
@@ -73,3 +73,25 @@ product12 = {
 }
 ];
 
+
+var makeProductString = function(myObj) {
+  var productString = "";
+  productString += "<article class='productCard'><img src='" + (myObj.url) + "' class='productImage'>";
+  productString += "<p class='productTitle'>" + (myObj.name) + "</p >";
+  productString += "<p class='productDescription'>" + (myObj.description) + "</p>";
+  productString += "<p class='productPrice'>" + (myObj.price) + "</p></article>";
+
+  return productString;
+};
+
+
+var addProduct = function(myArray, myId) {
+  for (var i = 0; i < myArray.length; i++) {
+    productString = makeProductString(myArray[i]);
+    var productElement = document.getElementById(myId);
+    productElement.innerHTML += productString;
+  };
+};
+
+
+addProduct(toys, "products");

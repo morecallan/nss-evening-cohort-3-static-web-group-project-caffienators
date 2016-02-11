@@ -31,7 +31,23 @@ h1, h2, h3 {
 }
 
 
-
 p {
   font-family: 'Poiret One', cursive;
+}
+
+
+/* --------  Products Styling ------------ */
+
+.productCard {
+  float: left;
+  border-radius: 100%;
+  width: 400px;
+  height: 400px;
+  background-color: #139275;
+  text-align: center;
+  border: 2px dashed #FED02F;
+}
+
+.productImage {
+  margin-top: 65px;
 }
