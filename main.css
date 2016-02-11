@@ -21,6 +21,7 @@ body {
 
 h1, h2, h3 {
   font-family: 'Monoton', cursive;
+  color: white;
 }
 
 
@@ -59,8 +60,89 @@ p {
 /******************SETS EXPERIENCE PAGE STYLE *******************/
 
 
-/******************SETS PRODUCTS PAGE STYLE *******************/
 
+/******************SETS PRODUCTS PAGE STYLE *******************/
+.experienceTitle {
+  text-align: center
+}
+
+.experienceSection {
+  border-bottom: 8px solid black;
+}
+
+.experienceSection:nth-child(1n+1) {
+  background-color: #782464;
+}
+
+.experienceSection:nth-child(2n+2) {
+  background-color: #D62F61;
+}
+
+.experienceSection:nth-child(3n+1) {
+  background-color: #1E53A2;
+}
+
+.experienceSection:nth-child(4n+1) {
+  background-color: #39BFBD;
+}
+
+.experienceHeader {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, .2);
+}
+
+/*Styles the thumbs up/down */
+.experienceHeader img {
+  width: 30px;
+  padding: 10px;
+  display: inline-block;
+  position: absolute;
+}
+
+/*Styles the experience title*/
+.experienceHeader h3 {
+  display: inline-block;
+  padding: 10px 50px;
+  margin: 5px;
+  font-family: arial;
+  font-size: 20px;
+}
+
+
+/*Styles the "product: " section*/
+.experienceHeader h4 {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: white;
+  border-radius: 10px;
+  font-family: 'Poiret One', cursive;
+  color: black;
+  box-shadow: inset 0 0 10px #000000;
+}
+
+/*Styles the main picture*/
+.experienceSection > img{
+  display: inline-block;
+  float: left;
+  margin: 20px;
+  width: 20%;
+}
+
+.experienceSection > p {
+  display: inline-block;
+  float: right;
+  width: 60%;
+  margin: 50px 20px 0px 10px;
+  text-align: justify;
+  color: white;
+}
+
+
+.clear {
+  clear: both;
+}
 
 .productCard {
   float: left;
