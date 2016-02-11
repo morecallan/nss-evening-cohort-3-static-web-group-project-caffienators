@@ -51,6 +51,20 @@ p {
   color: #139275;
 }
 
+a {
+  display: inline-block;
+  padding: 10px;
+  border: none;
+  font: normal 30px 'Monoton', cursive;
+  color: rgba(255,255,255,1);
+  text-decoration: none;
+  text-align: center;
+}
+
+a:hover {
+  text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #ff00de , 0 0 70px #ff00de , 0 0 80px #ff00de , 0 0 100px #ff00de ;
+}
+
 /******************SETS INDEX PAGE STYLE *******************/
 
 
@@ -143,5 +157,20 @@ p {
 .clear {
   clear: both;
 }
+
+.productCard {
+  float: left;
+  border-radius: 100%;
+  width: 400px;
+  height: 400px;
+  background-color: #139275;
+  text-align: center;
+  border: 2px dashed #FED02F;
+}
+
+.productImage {
+  margin-top: 65px;
+}
+
 
 
