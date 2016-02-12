@@ -33,18 +33,65 @@ p {
 
 .content {
   background-color: black;
-  width: 60%;
-  margin: 0 20%;
+  width: 66%;
+  margin: -10px 17%;
 }
 
 
 
 /******************SETS NAV STYLE *******************/
+
+/*Styles Logo*/
+.logo {
+  width: 30%;
+  margin: 10px 10px 10px 30px;
+  float: left;
+  border: 1px solid white;
+  border-radius: 20%;
+}
+
+/*Styles social images*/
+.social {
+  display: inline-block;
+  display: flex;
+  width: 30%;
+  justify-content: flex-end;
+  margin: 50px 0 0 0 ;
+  padding: 0;
+  float: right;
+  list-style: none;
+}
+
+.social li {
+  padding: 10px;
+  margin: 0;
+}
+
+
+.social img {
+  width: 60px;
+  margin: 0;
+  padding: 0;
+  border-radius: 5px;
+  border: none;
+}
+
+.orangeSocial:hover {
+  box-shadow: 0 0 2.5px rgba(255,255,255,1) , 0 0 5px rgba(255,255,255,1) , 0 0 7.5px rgba(255,255,255,1) , 0 0 10px #FD5F00 , 0 0 17.5px #FD5F00 , 0 0 20px #FD5F00 , 0 0 25px #FD5F00 ;
+}
+
+.blueSocial:hover {
+  box-shadow: 0 0 2.5px rgba(255,255,255,1) , 0 0 5px rgba(255,255,255,1) , 0 0 7.5px rgba(255,255,255,1) , 0 0 10px #0DDEFF , 0 0 17.5px #0DDEFF , 0 0 20px #0DDEFF , 0 0 25px #0DDEFF ;
+}
+
+/*Sets style of nav bar*/
 .nav{
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-around;
   list-style: none;
   background-color: #D62F61;
+  padding: 0;
+  margin: 0;
 }
 
 .nav li {
@@ -52,11 +99,24 @@ p {
   color: #139275;
 }
 
+
+.social{
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+}
+
+.social img{
+  width: 20%;
+}
+
+
+
 a {
   display: inline-block;
-  padding: 10px;
+  margin: 10px;
   border: none;
-  font: normal 30px 'Monoton', cursive;
+  font: normal 22px 'Monoton', cursive;
   color: rgba(255,255,255,1);
   text-decoration: none;
   text-align: center;
@@ -65,6 +125,8 @@ a {
 a:hover {
   text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #ff00de , 0 0 70px #ff00de , 0 0 80px #ff00de , 0 0 100px #ff00de ;
 }
+
+
 
 /******************SETS INDEX PAGE STYLE *******************/
 
@@ -86,7 +148,8 @@ a:hover {
 
 
 .experienceTitle {
-  text-align: center
+  text-align: center;
+  margin: 5px;
 }
 
 .experienceTitle h1{
@@ -141,8 +204,8 @@ a:hover {
 
 /*Styles the thumbs up/down */
 .experienceHeader img {
-  width: 50px;
-  padding: 2px;
+  width: 55px;
+  margin: 0px;
   display: inline-block;
   position: absolute;
 }
@@ -162,6 +225,7 @@ a:hover {
   display: inline-block;
   padding: 10px 20px;
   margin: 5px;
+>>>>>>> 22e3e71d29fdbce9b46f66f60e4f1735aa33ac4e
   background-color: black;
   border-radius: 10px;
   font-family: 'Poiret One', cursive;
@@ -202,6 +266,7 @@ a:hover {
 
 .clear {
   clear: both;
+  height: 0;
 }
 
 /******************SETS PRODUCTS PAGE STYLE *******************/
