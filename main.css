@@ -21,6 +21,16 @@
   color: #139275;
 }
 
+.social{
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+}
+
+.social img{
+  width: 20%;
+}
+
 body {
   background-color: black;
   color: white;
