@@ -42,9 +42,10 @@ p {
 /******************SETS NAV STYLE *******************/
 .nav{
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-around;
   list-style: none;
   background-color: #D62F61;
+  padding: 0;
 }
 
 .nav li {
@@ -54,9 +55,9 @@ p {
 
 a {
   display: inline-block;
-  padding: 10px;
+  margin: 10px;
   border: none;
-  font: normal 30px 'Monoton', cursive;
+  font: normal 22px 'Monoton', cursive;
   color: rgba(255,255,255,1);
   text-decoration: none;
   text-align: center;
@@ -64,6 +65,11 @@ a {
 
 a:hover {
   text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #ff00de , 0 0 70px #ff00de , 0 0 80px #ff00de , 0 0 100px #ff00de ;
+}
+
+img {
+  width: 30%;
+  margin: 10px;
 }
 
 /******************SETS INDEX PAGE STYLE *******************/
