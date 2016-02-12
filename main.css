@@ -100,18 +100,6 @@ p {
 }
 
 
-.social{
-  display: flex;
-  justify-content: flex-end;
-  list-style: none;
-}
-
-.social img{
-  width: 20%;
-}
-
-
-
 a {
   display: inline-block;
   margin: 10px;
@@ -174,16 +162,21 @@ a:hover {
   margin: 0 0 0 7px;
 }
 
-.experienceTitle h2 {
-  width: 30px;
+.experienceTitle button {
+  width: 42px;
   display: inline-block;
   padding: 0 4px;
-  margin: 7px;
+  margin: 7px 20px;
   border: 3px solid white;
   border-radius: 30%;
+  font-family: arial;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  background-color: black;
 }
 
-.experienceTitle h2:hover {
+.experienceTitle button:hover {
   box-shadow: 0 0 5px rgba(255,255,255,1) , 0 0 10px rgba(255,255,255,1) , 0 0 15px rgba(255,255,255,1) , 0 0 20px #ff00de , 0 0 35px #ff00de , 0 0 40px #ff00de , 0 0 50px #ff00de ;
 }
 
@@ -237,7 +230,6 @@ a:hover {
   display: inline-block;
   padding: 10px 20px;
   margin: 5px;
->>>>>>> 22e3e71d29fdbce9b46f66f60e4f1735aa33ac4e
   background-color: black;
   border-radius: 10px;
   font-family: 'Poiret One', cursive;
