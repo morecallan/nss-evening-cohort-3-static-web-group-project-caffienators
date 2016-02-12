@@ -127,22 +127,58 @@ a:hover {
 
 #employeesDisplay {
   width: 90%;
-  margin: 0 auto;
+  margin: 40px auto;
   text-align: center;
-  background-color: #FED02F;
+  background-color: #477DE6;
+  padding: 10px 0;
 }
 
 .staffCard {
-  background-color: #39BFBD;
   border-radius: 15px;
   width: 80%;
-  margin: 0 auto;
+  margin: 10px auto;
   text-align: center;
+  background-color: orange;
+}
+
+.staffCard p {
+  font-weight: bolder;
+  color: white;
+  font-size: 1.5em;
+  padding-bottom: 25px;
+  margin-top: 10px;
+}
+
+
+.red {
+  background-color: #FB2A27;
+}
+
+.yellow {
+  background-color: #EBC72A;
+}
+
+.green {
+  background-color: #33DC54;
+}
+
+.blue {
+  background-color: #1527B0;
+}
+
+.orange {
+  background-color: #E65B2A;
 }
 
 .staffImage {
   max-width: 150px;
 }
+
+.staffName h1{
+  margin: 5px 0;
+}
+
+
 
 /******************SETS EXPERIENCE PAGE STYLE *******************/
 
