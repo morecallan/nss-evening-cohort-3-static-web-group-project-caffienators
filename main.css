@@ -69,14 +69,22 @@ a:hover {
 /******************SETS INDEX PAGE STYLE *******************/
 
 
-/******************SETS CULTURE PAGE STYLE *******************/
+/******************SETS EMPLOYEES PAGE STYLE *******************/
 
+.content {
+  height: 800px;
+}
+
+#employeesDisplay {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #FED02F;
+}
 
 /******************SETS EXPERIENCE PAGE STYLE *******************/
 
 
-
-/******************SETS PRODUCTS PAGE STYLE *******************/
 .experienceTitle {
   text-align: center
 }
@@ -195,6 +203,8 @@ a:hover {
 .clear {
   clear: both;
 }
+
+/******************SETS PRODUCTS PAGE STYLE *******************/
 
 .productCard {
   float: left;
