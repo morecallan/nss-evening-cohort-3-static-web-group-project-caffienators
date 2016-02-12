@@ -48,6 +48,7 @@ p {
   float: left;
   border: 1px solid white;
   border-radius: 20%;
+  background-color: rgba(255, 255, 255, .1);
 }
 
 /*Styles social images*/
@@ -114,6 +115,10 @@ a:hover {
   text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #ff00de , 0 0 70px #ff00de , 0 0 80px #ff00de , 0 0 100px #ff00de ;
 }
 
+a:active {
+  text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #ff00de , 0 0 70px #ff00de , 0 0 80px #ff00de , 0 0 100px #ff00de ;
+}
+
 
 
 /******************SETS INDEX PAGE STYLE *******************/
@@ -122,11 +127,30 @@ a:hover {
 /******************SETS CULTURE PAGE STYLE *******************/
 
 
-/******************SETS EXPERIENCE PAGE STYLE *******************/
-
-
-
 /******************SETS PRODUCTS PAGE STYLE *******************/
+#products {
+  width: 149%;
+  margin: 0 -23%;
+}
+
+
+.productCard {
+  float: left;
+  border-radius: 100%;
+  width: 300px;
+  height: 300px;
+  background-color: white;
+  text-align: center;
+  border: 5px solid black;
+}
+
+.productImage {
+  margin-top: 35px;
+  width: 40%
+}
+
+
+/******************SETS EXPERIENCE PAGE STYLE *******************/
 .experienceTitle {
   text-align: center;
   margin: 5px;
@@ -253,16 +277,4 @@ a:hover {
   height: 0;
 }
 
-.productCard {
-  float: left;
-  border-radius: 100%;
-  width: 400px;
-  height: 400px;
-  background-color: #139275;
-  text-align: center;
-  border: 2px dashed #FED02F;
-}
 
-.productImage {
-  margin-top: 65px;
-}
