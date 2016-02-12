@@ -16,7 +16,7 @@ for (var i = 0; i < staffArray.length; i++){
 
   switch (currentStaff[0]) {
     case "Ron" :
-      bgColor = "red";
+      bgColor = "hotpink";
       break;
     case "Jamiece" :
       bgColor = "green";
@@ -25,19 +25,19 @@ for (var i = 0; i < staffArray.length; i++){
       bgColor = "yellow";
       break;
     case "Tommy" :
-      bgColor = "blue";
+      bgColor = "purple";
       break;
     case "Teresa" :
-      bgColor = "red";
+      bgColor = "blue";
       break;
     case "Dave" :
-      bgColor = "orange";
-      break;
-    case "Sherri" :
       bgColor = "green";
       break;
+    case "Sherri" :
+      bgColor = "purple";
+      break;
     default :
-      bgColor = "blue";
+      bgColor = "yellow";
   }
 
 

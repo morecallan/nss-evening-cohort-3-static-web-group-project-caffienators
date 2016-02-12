@@ -151,23 +151,32 @@ a:hover {
 
 
 .red {
-  background-color: #FB2A27;
+  background-color: #D62F61;
 }
 
 .yellow {
-  background-color: #EBC72A;
+  background-color: #FED02F;
 }
 
 .green {
-  background-color: #33DC54;
+  background-color: #139275;
 }
 
 .blue {
-  background-color: #1527B0;
+  /* background-color: #1527B0; */
+  background-color: #1E53A2;
 }
 
-.orange {
-  background-color: #E65B2A;
+.hotpink {
+  background-color: #EA3E94;
+}
+
+.purple {
+  background-color: #782464;
+}
+
+.turquoise {
+  background-color: #39BFBD;
 }
 
 .staffImage {
