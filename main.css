@@ -52,6 +52,19 @@ p {
   color: #139275;
 }
 
+
+.social{
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+}
+
+.social img{
+  width: 20%;
+}
+
+
+
 a {
   display: inline-block;
   padding: 10px;
@@ -154,6 +167,7 @@ a:hover {
   display: inline-block;
   padding: 10px 20px;
   margin: 5px;
+>>>>>>> 22e3e71d29fdbce9b46f66f60e4f1735aa33ac4e
   background-color: black;
   border-radius: 10px;
   font-family: 'Poiret One', cursive;
