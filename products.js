@@ -42,7 +42,7 @@ product6 = {
   pageRef: "evilKnievel"
 },
 product7 = {
-  name: "Attari",
+  name: "Atari",
   description: "description goes here",
   url: "img/product7.jpg",
   price: "price goes here",

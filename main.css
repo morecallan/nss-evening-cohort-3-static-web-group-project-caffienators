@@ -129,26 +129,54 @@ a:active {
 
 /******************SETS PRODUCTS PAGE STYLE *******************/
 #products {
-  width: 149%;
-  margin: 0 -23%;
+ /* width: 149%;
+  margin: 0 -23%;*/
 }
-
 
 .productCard {
   float: left;
   border-radius: 100%;
   width: 300px;
   height: 300px;
-  background-color: white;
   text-align: center;
   border: 5px solid black;
 }
 
-.productImage {
-  margin-top: 35px;
-  width: 40%
+.productCard:nth-child(2n+1) {
+  background-color: #139275;
 }
 
+.productCard:nth-child(2n+0) {
+  background-color: #39BFBD;
+}
+
+.productCard:nth-child(4n+1) {
+  background-color: #782464;
+}
+
+.productCard:nth-child(4n+2) {
+  background-color: #1E53A2;
+}
+
+.productImage {
+  margin-top: 35px;
+  width: 40%;
+  border-radius: 10px;
+}
+
+
+.productCard p:nth-of-type(1) {
+  font-size: 25px;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, .3);
+  padding: 0;
+  text-align: center;
+}
+
+.productCard p {
+  margin: 15px;
+  color: white;
+}
 
 /******************SETS EXPERIENCE PAGE STYLE *******************/
 .experienceTitle {
