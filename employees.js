@@ -10,12 +10,12 @@ staffArray[6] = ["Sherri", "Sales Manager", "We're worried about Sherri.  Some c
 
 var staff = document.getElementById("employeesDisplay");
 
-var makeArray = function( )
-for (var i = 0; i < staffArray.length; i++){
-  var currentStaff = staffArray[i];
-  var bgColor = "";
+var displayStaff = function(myArray) {
+  for (var i = 0; i < myArray.length; i++){
+    var currentPerson = myArray[i];
+    var bgColor = "";
 
-  switch (currentStaff[0]) {
+  switch (currentPerson[0]) {
     case "Ron" :
       bgColor = "hotpink";
       break;
@@ -42,8 +42,10 @@ for (var i = 0; i < staffArray.length; i++){
   }
 
 
-  staff.innerHTML += "<article class='staffCard " + bgColor + "'><a href='mailto:" + currentStaff[4] + "' class='staffName'><h1>" + currentStaff[0] + "</h1></a> <div class='image'><img src='" + currentStaff[3] + "' alt='' class='staffImage'></div><p>" + currentStaff[1] + "</p></article>";
+    staff.innerHTML += "<article class='staffCard " + bgColor + "'><a href='mailto:" + currentPerson[4] + "' class='staffName'><h1>" + currentPerson[0] + "</h1></a> <div class='image'><img src='" + currentPerson[3] + "' alt='' class='staffImage'></div><p>" + currentPerson[1] + "</p></article>";
+  }
 }
 
+displayStaff(staffArray);
 
 
