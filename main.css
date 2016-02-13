@@ -150,16 +150,19 @@ a:active {
   width: 80%;
   margin: 10px auto;
   text-align: center;
+  color: white;
 }
 
-.staffCard p {
-  font-weight: bolder;
+.staffBio {
   color: white;
   font-size: 1.5em;
-  padding-bottom: 25px;
-  margin-top: 10px;
+  margin: 20px;
+  padding-bottom: 20px;
 }
 
+.staffTitle {
+  font-size: 1.75em;
+}
 
 .red {
   background-color: #D62F61;
