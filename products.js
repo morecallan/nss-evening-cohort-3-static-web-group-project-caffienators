@@ -107,4 +107,4 @@ var addProduct = function(myArray, myId) {
 };
 
 
-addProduct(toys, "products");
+addProduct(toys, "productsDisplay");

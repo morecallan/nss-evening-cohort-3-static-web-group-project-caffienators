@@ -41,5 +41,5 @@ for (var i = 0; i < staffArray.length; i++){
   }
 
 
-  staff.innerHTML += "<article class='staffCard " + bgColor + "'><a href='mailto:" + currentStaff[4] + "' class='staffName'><h1>" + currentStaff[0] + "</h1></a> <section> <div class='image'><img src='" + currentStaff[3] + "' alt='' class='staffImage'></div><p>" + currentStaff[1] + "</p></section></article>";
+  staff.innerHTML += "<article class='staffCard " + bgColor + "'><a href='mailto:" + currentStaff[4] + "' class='staffName'><h1>" + currentStaff[0] + "</h1></a> <div class='image'><img src='" + currentStaff[3] + "' alt='' class='staffImage'></div><p>" + currentStaff[1] + "</p></article>";
 }
