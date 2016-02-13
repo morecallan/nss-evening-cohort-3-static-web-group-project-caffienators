@@ -35,6 +35,8 @@ p {
   background-color: black;
   width: 66%;
   margin: -10px 17%;
+  min-width: 817px;
+  height: 100%;
 }
 
 
@@ -129,15 +131,10 @@ a:active {
 
 /******************SETS EMPLOYEES PAGE STYLE *******************/
 
-.content {
-  height: 100%;
-}
-
 #employeesDisplay {
   width: 90%;
   margin: 40px auto;
   text-align: center;
-  /* background-color: black; */
   padding: 10px 0;
 }
 
@@ -202,6 +199,7 @@ a:active {
   width: 90%;
   text-align: center;
   padding-left: 45px;
+  min-width: 500px;
 }
 
 .productCard {
