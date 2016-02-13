@@ -107,6 +107,11 @@ p {
   color: white;
 }
 
+.main-image{
+  size: auto;
+  margin: 15px 12%;
+}
+
 a {
   display: inline-block;
   margin: 10px;
