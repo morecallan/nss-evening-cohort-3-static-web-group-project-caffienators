@@ -34,7 +34,7 @@ p {
 .content {
   background-color: black;
   width: 66%;
-  margin: -10px 17%;
+  margin: -10px 10%;
   min-width: 817px;
   height: 100%;
 }
@@ -45,12 +45,11 @@ p {
 
 /*Styles Logo*/
 .logo {
-  width: 30%;
-  margin: 10px 10px 10px 30px;
+  width: 22%;
+  margin: 10px 10px 10px 50px;
   float: left;
-  border: 1px solid white;
+  border: 4px solid white;
   border-radius: 20%;
-  background-color: rgba(255, 255, 255, .1);
 }
 
 /*Styles social images*/
@@ -59,7 +58,7 @@ p {
   display: flex;
   width: 30%;
   justify-content: flex-end;
-  margin: 50px 0 0 0 ;
+  margin: 50px 50px 0 0 ;
   padding: 0;
   float: right;
   list-style: none;
@@ -304,7 +303,7 @@ a:active {
 
 .experienceSection {
   border-bottom: 8px solid black;
-  margin: 0 30px;
+  margin: 0 50px;
 }
 
 .experienceSection:nth-child(1n+1) {
