@@ -127,6 +127,10 @@ a:active {
 
 
 /******************SETS INDEX PAGE STYLE *******************/
+.para {
+  margin: 30px;
+}
+
 
 /******************SETS EMPLOYEES PAGE STYLE *******************/
 
@@ -247,7 +251,7 @@ a:active {
 }
 
 .productCard p {
-  margin: 15px;
+  margin: 12px 20px;
   color: white;
 }
 
@@ -300,6 +304,7 @@ a:active {
 
 .experienceSection {
   border-bottom: 8px solid black;
+  margin: 0 30px;
 }
 
 .experienceSection:nth-child(1n+1) {

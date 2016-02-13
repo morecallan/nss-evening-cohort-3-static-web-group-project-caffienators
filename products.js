@@ -29,21 +29,21 @@ product4 = {
 },
 product5 = {
   name: "Rock 'Em, Sock 'Em Robots",
-  description: "Anger mgmt for kids.",
+  description: "Conflict-free anger management for children.",
   url: "img/product5.jpg",
   price: "$260.00",
   pageRef: "rockEmSockEmRobots"
 },
 product6 = {
   name: "Evel Knievel",
-  description: "He wanted to marry his girlfriend, so he kidnapped her.",
+  description: "Wanted to marry his girl, so he kidnapped her.",
   url: "img/product6.jpg",
   price: "$374.99",
   pageRef: "evilKnievel"
 },
 product7 = {
   name: "Atari",
-  description: "Japanese 'ataru'= 'prepare to get your ass kicked'.",
+  description: "Japanese 'ataru' = 'prepare to get your ass kicked'.",
   url: "img/product7.jpg",
   price: "$79.99",
   pageRef: "attari"
@@ -64,7 +64,7 @@ product9 = {
 },
 product10 = {
   name: "View Master",
-  description: "Cool enough for Mary J. Blige.",
+  description: "Cool enough for Mary J. Blige. Cool enough for you.",
   url: "img/product10.jpg",
   price: "$127.39",
   pageRef: "viewMaster"
